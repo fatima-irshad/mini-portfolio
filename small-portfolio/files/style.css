@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Lugrasimo&family=Pangolin&family=Permanent+Marker&family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+   
+    /* width: 100%; is it necessary to give weight and height to bidy? */
+  
+    color: whitesmoke;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+#main-sec{
+    position: absolute;
+    top: 70px;
+    left: 350px;
+    width: 500px;
+    height: 650px;
+    border: 2px solid rgb(255, 255, 255);
+    
+} 
+#background-img{
+    width: 100%;
+    height: 800px;
+ position: relative;
+    z-index: -1;
+    filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header-desc{
+   
+     /* position: absolute;  */
+   padding-top: 20px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-desc p{
+    margin-top: 20px;
+    padding: 10px;
+    text-shadow: 1px 1px #947cac;
+    border-top: 1px solid wheat;
+    border-left: 1px solid wheat;
+    border-bottom: 1px solid #947cac;
+    border-right: 1px solid #947cac;
+background-color: #480972;
+
+}
+
+.header-desc h1 {
+    /* margin: 0px; */
+    color: #f9f9f9;
+    font-size: 45px;
+}
+
+.header-desc h1{
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+.header-desc img{
+        width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    border: 2px solid white;
+}
+/*    it is not working as it should b after giving position Y?
+#description-sec{
+     position: absolute;
+top: 200px;
+
+} */
+
+#description-sec{
+    margin-top: 17px;
+}
+
+#description-sec P{
+padding: 10PX;
+text-indent: 5px;
+letter-spacing: 0.4px;
+line-height: 1.3;
+justify-content: center;
+}
+
+#footer-sec{
+
+
+  position: absolute;
+    top: 600px;
+    left: 150px;
+
+}
+
+
+#footer-sec img{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+
